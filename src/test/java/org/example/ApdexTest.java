@@ -18,9 +18,9 @@ public class ApdexTest {
     public void validarApdexExcelente(){
         Apdex apdex = new Apdex();
 
-        double score = apdex.calcularApdex(1000, 0, 1000);
+        double score = apdex.calcularApdex(940, 0, 1000);
 
-        Assertions.assertEquals(1, score, 0.001);
+        Assertions.assertEquals(0.94, score, 0.001);
     }
 
     @Test
