@@ -36,9 +36,9 @@ public class ApdexTest {
     public void validarApdexRazoavel(){
         Apdex apdex = new Apdex();
 
-        double score = apdex.calcularApdex(750, 0, 1000);
+        double score = apdex.calcularApdex(700, 0, 1000);
 
-        Assertions.assertEquals(0.75, score, 0.001);
+        Assertions.assertEquals(0.70, score, 0.001);
     }
 
     @Test
